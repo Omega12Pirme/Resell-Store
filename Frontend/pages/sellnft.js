@@ -235,18 +235,18 @@ const [LIghthouseCid,SetLIghthouseCid] = useState('');
           <Image src = {basic} className = "w-full rounded-t-md duration-200 hover:scale-110 hover:overflow-hidden" />
           </div>
           <div className="md:w-1/2 py-10 px-12">
-            <p className="mb-3">List your event</p>
+            <p className="mb-3">Sell your Item</p>
             <form>
               <div className="mt-5">
-                <input placeholder="Event Name" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, name: e.target.value })}/>
+                <input placeholder="item Name" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, name: e.target.value })}/>
               </div>
 
               <div className="mt-5">
-                <textarea placeholder="Event Description" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, description: e.target.value })}/>  
+                <textarea placeholder="item Description" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, description: e.target.value })}/>  
               </div>
               
               <div className="mt-5">
-                <input placeholder="Event Price in ETH" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, price: e.target.value })}/>  
+                <input placeholder="item Price in ETH" className="border-2 border-black rounded p-4 mb-2 w-full" onChange={(e) => updateFormInput({ ...formInput, price: e.target.value })}/>  
               </div>
               
               <div className="mt-5">
@@ -274,7 +274,7 @@ const [LIghthouseCid,SetLIghthouseCid] = useState('');
 								</button>
 							) : uploaded == false ? (
 								<button className="rounded-xl bg-green-600 button mt-3" onClick={listNFTForSale}>
-								  Create Ticket 
+								  Sell Item 
 							  </button>
 							) : (
 								<button style={{ cursor: "no-drop" }} className="button">

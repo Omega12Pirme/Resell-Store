@@ -79,7 +79,7 @@ export default function Navbar() {
           <a className="text-4xl tracking-widest font-semibold" href="/">
             {" "}
             <h2 className="text-yellow-800">
-              <span className="text-blue-800">OneTic</span>ket
+              <span className="text-blue-800">RESELL ST</span>ORE
             </h2>
           </a>
         </div>
@@ -110,8 +110,8 @@ export default function Navbar() {
 
       <div className="hidden bg-yellow-500 md:flex text-9010FF text-1xl nav-item font-bold font-serif justify-center items-center text-black h-8">
         <NavLink to="/Market">HOME</NavLink>
-        <NavLink to ="/sellnft">Create Event</NavLink>
-        <NavLink to ="/mynft">MY Ticket</NavLink>
+        <NavLink to ="/sellnft">List Item</NavLink>
+        <NavLink to ="/mynft">MY Purchase</NavLink>
         <NavLink to="/dashboard">DASHBOARD</NavLink>
         <NavLink to="/Review">Your experience!!</NavLink>
       </div>

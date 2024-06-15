@@ -158,7 +158,7 @@ checkNetworkAndLoadNFTs();
                 </div>
               
                 <div className="p-1  umrk bg-black">
-                  <p className="text-2xl font-bold text-white">{nft.price} XDAI</p>
+                  <p className="text-2xl font-bold text-white">{nft.price} ETH</p>
                   <button className=" hover:rotate-2 delay-100 transition ease-in-out   text-center border hover:bg-gray-100 hover:shadow-md border-gray-500 rounded-md mt-4 w-full bg-green-500 text-cyan font-bold py-2 px-12 rounded" onClick={() => buyNft(nft)}>Buy</button>
                 </div>
                 
